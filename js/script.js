@@ -50,11 +50,3 @@ window.onscroll = () => {
 
 }
 
-//testar funcionalidade, se n funcionar retirar
-document.querySelector('form').addEventListener('submit', function(event) {
-    event.preventDefault(); // Impede o envio do formulário
-  
-    // Redireciona para a seção "home"
-    window.location.href = "#home";
-  });
-  
