@@ -96,20 +96,6 @@ form.addEventListener('submit', function(event) {
     // Se todos os campos estiverem preenchidos corretamente, enviar o formulário
     form.submit();
 });
-// TESTANDO alerrt
-document.querySelector('#submit-button').addEventListener('click', function() {
-    // Exibe um prompt com a mensagem "Mensagem enviada"
-    var promptResult = prompt('Mensagem enviada');
-  
-    // Verifica se o usuário clicou em "OK" no prompt
-    if (promptResult === null) {
-      // Se o usuário clicou em "Cancelar" ou fechou o prompt, não faz nada
-      return;
-    }
-  
-    // Redireciona para a página home
-    window.location.href="#home";
-  });
-  
+
 		
 
