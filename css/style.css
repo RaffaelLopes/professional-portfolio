@@ -806,7 +806,7 @@ section:nth-child(odd) .animate.scroll,
     .navbar {
         position: absolute;
         top: 100%;
-        left: -100;
+        left: -100%;
         width: 100%;
         padding: 1rem 4%;
         background: var(--main-color);
