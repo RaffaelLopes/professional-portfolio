@@ -481,7 +481,7 @@ span {
 }
 
 .skills-box .skills-content {
-    position: relative;
+   
     border: .2rem solid var(--main-color);
     border-radius: .6rem;
     padding: .5rem 1.5rem;
