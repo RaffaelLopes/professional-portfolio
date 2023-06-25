@@ -1,5 +1,5 @@
 # portfolio_responsivel
-Repositório responsivo utilizando HTML, CSS e JavaScript.
+Portfólio responsivo utilizando HTML, CSS e JavaScript.
 
 **Finalizando detalhes.
 
