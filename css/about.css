@@ -1,0 +1,78 @@
+
+.about {
+    align-items: center;
+    background: var(--second-bg-color);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    padding-bottom: 6rem;  
+}
+
+.heading {
+    font-size: 5rem;
+    margin-bottom: 3rem;
+    position: relative;
+    text-align: center;
+}
+
+span {
+    color: var(--main-color);
+}
+
+.about-img {
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    height: 25rem;
+    justify-content: center;
+    position: relative;
+    width: 25rem;     
+}
+
+.about-img img {
+    border: .2rem solid var(--main-color);
+    border-radius: 50%;
+    width: 90%;    
+}
+
+.about-img .circle-spin {
+    animation: aboutSpinner 8s linear infinite;
+    border-bottom: .2rem solid var(--second-bg-color);
+    border-left: .2rem solid var(--main-color);
+    border-radius: 50%;
+    border-right: .2rem solid var(--main-color);
+    border-top: .2rem solid var(--second-bg-color);
+    height: 100%;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(0);
+    width: 100%;   
+}
+
+.about-content {
+    text-align: center;
+}
+
+.about-content h3 {
+    display: inline-block;
+    font-size: 2.6rem;
+    position: relative;
+}
+
+.about-content p {
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+    position: relative;
+}
+
+
+.btn-box.btns {
+    display: inline-block;
+    width: 15rem;
+}
+
+.btn-box.btns a::before {
+    background: var(--second-bg-color);
+}

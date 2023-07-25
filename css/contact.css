@@ -1,0 +1,147 @@
+.contact {
+    min-height: auto;
+    padding-bottom: 7rem;
+}
+
+.contact h2 {
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.contact form {
+    max-width: 70rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact form .input-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact form .input-box .input-field {
+    margin-bottom: 1.6rem;
+    position: relative;
+    width: 49%;
+}
+
+.contact form .input-box .input-field:nth-child(3),
+.contact form .input-box .input-field:nth-child(4) {
+    width: 100%;
+}
+
+.contact form .input-box .input-field input,
+.contact form .textarea-field textarea {
+    background: transparent;
+    border-radius: 0.6rem;
+    border: 0.2rem solid var(--main-color);
+    color: var(--text-color);
+    font-size: 1.6rem;
+    height: 100%;
+    padding: 1.5rem;
+    width: 100%;   
+}
+
+.contact form .input-box .input-field input::placeholder,
+.contact form .textarea-field textarea::placeholder {
+    color: var(--text-color);
+}
+
+.contact form .focus {
+    background: var(--second-bg-color);
+    border-radius: 0.6rem;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: 0.5s;
+    width: 0;
+    z-index: -1;  
+}
+
+.contact form .input-box .input-field input:focus~.focus,
+.contact form .input-box .input-field input:valid~.focus,
+.contact form .textarea-field textarea:focus~.focus,
+.contact form .textarea-field textarea:valid~.focus {
+    width: 100%;
+}
+
+.contact form .textarea-field {
+    margin-bottom: 2.7rem;
+    position: relative;
+    width: 100%;
+}
+
+.contact form .textarea-field textarea {
+    resize: none;
+}
+
+.contact form .btn-box.btns {
+    display: flex;
+    justify-content: center;
+    margin-left: 28rem;
+    
+}
+
+.contact form .btn-box.btns .btn {
+    cursor: pointer;
+}
+
+.footer {
+    align-items: center;
+    background: var(--second-bg-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem 9%;
+}
+
+.footer-text,
+.footer-iconTop {
+    position: relative;
+}
+
+.footer-text p {
+    font-size: 1.6rem;
+}
+
+.footer-iconTop a {
+    align-items: center;
+    background: var(--main-color);
+    border: .2rem solid var(--main-color);
+    border-radius: .6rem;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    overflow: hidden;
+    padding: .8rem;
+    z-index: 1;  
+}
+
+.footer-iconTop a::before {
+    background: var(--second-bg-color);
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: .5s;
+    width: 0;
+    z-index: -1;
+}
+
+.footer-iconTop a:hover::before{
+    width: 100%;
+}
+
+.footer-iconTop a i {
+    color: var(--bg-color);
+    font-size: 2.4rem;
+    transition: .5s;
+}
+
+.footer-iconTop a:hover i{
+    color: var(--main-color);
+}
