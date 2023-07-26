@@ -35,7 +35,7 @@
 }
 
 .home-content .text-animate h3 {
-    background-position: 0 0; /* -33rem 0 --abaixo acrescentado*/
+    background-position: -33rem 0 ; /*  0 0 --invertido*/
     background-size: 100% 100% ;
     background-image: linear-gradient(var(--main-color), var(--main-color));
     background-repeat: no-repeat;
