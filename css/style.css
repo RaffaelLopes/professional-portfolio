@@ -295,7 +295,7 @@ section:nth-child(odd) .animate.scroll,
     0%,
     10%,
     100% {
-        background-position: -60rem 0;
+        background-position: -33rem 0;
     } 
 
     65%,
@@ -316,7 +316,7 @@ section:nth-child(odd) .animate.scroll,
     65%,
     78%,
     85% {
-        width: 94.5%;
+        width: 54%;
         opacity: 1;
     }
 
