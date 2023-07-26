@@ -1,4 +1,4 @@
-# Professionalportfolio
+# Professional portfolio
 
 "Responsive portfolio using HTML, CSS, and JavaScript."
 
